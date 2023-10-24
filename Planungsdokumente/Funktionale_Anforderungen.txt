@@ -1,0 +1,14 @@
+Funktionale Anforderungen:
+
+- Quizteilnehmer anlegen und verwalten [zur aktuellen Teilnehmerliste hinzufügen, Punktestände zuordnen, 
+in Ranking einordnen] (3 Stunden)
+
+- Punktestände verwalten [verändern und ausgeben] (3 Stunden)
+
+- Nutzereingabe in eine einheitlich formatierte ChatGPT-Anfrage umwandeln (10 Stunden) 
+
+- ChatGPT-Anfrageergebnis in Frage und Antwortmöglichkeiten formatieren und an das Programm zurückgeben (15 Stunden)
+
+- Jeweils eine korrekte Antwort pro Frage kennzeichnen und Nutzereingaben entsprechend bewerten (5 Stunden)
+
+ 
