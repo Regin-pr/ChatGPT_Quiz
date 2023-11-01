@@ -1,0 +1,38 @@
+Datenbank: "gpt_quiz_db"
+	
+	Tabelle:	"Teilnehmer"
+					
+					Enthält alle angelegten Teilnehmer des Quizzes und deren Punktestände
+					- TeilnehmerID (PK)
+					- Name
+					- PunkteGesamt
+					- PunkteRunde [wird während der Laufzeit verändert und zum Ende mit dem Endwert auf PunkteGesamt addiert]
+					
+					"Thema"
+					
+					Enthält eine Liste von Themen, die der Teilnehmer angibt (zur Dokumentation + evtl. späteren erneuten Nutzung)
+					- ThemaID (PK)
+					- Bezeichnung
+					
+					"Frage"
+					
+					Enthält für ein jeweiliges Thema eine Liste von Fragen, die die KI generiert (evtl. zur späteren Vermeidung von Dopplungen)
+					- FrageID (PK)
+					- ThemaID (PK, FK)
+					- Text
+					- Schwierigkeit
+					- Punktewert
+					
+					"Antwort"
+					
+					Enthält für eine entsprechende Frage eines entsprechenden Themas eine Liste der Antworten und deren Korrektheitswerte
+					- Buchstabe (PK)
+					- ThemaID (PK, FK)
+					- FrageID (PK, FK)
+					- Text
+					- Korrektheit 
+					
+	Relationen:
+	
+					PunkteRunde[Punktekonto] - Punktewert[Frage]
+					Der Punktewert einer beantworteten Frage wird n Punktekonten im PunkteR	unde-Attribut zugefügt wenn die Frage richtig beantwortet wurde

@@ -1,0 +1,19 @@
+Themenprompt:
+Formulate a[n easy/intermediate/difficult] trivia quiz question and four (4) possible answers, of which only one (1) is correct, for the following topic: [Thema]
+
+Text:
+Formulate a[n easy/intermediate/difficult] trivia quiz question and 4 possible answers (A,B,C,D), of which only one (1) is correct, about the following text:
+
+--Experimental: Formulate a trivia quiz question and four (4) possible answers, of which only one (1) is correct, for the following topic:  Video games | Format the message in the following way: "Question:[Question],A:[Answer 1],B:[Answer B],C:[Answer C],D:[Answer D],Correct Answer:[A,B,C or D]"
+
+Formuliere eine Allgemeinwissens-Quizfrage mit vier (4) Antwortmöglichkeiten von A-D, wovon nur eine korrekt ist, zu folgendem Thema: 
+
+- Frage KI ob sie den "Obskuritätsgrad" eines Themas bestimmen kann (+Folgen)
+
+--Übliche Formatierung
+Question: What is the maximum height a player can build up to in Minecraft?
+A[:/)] 128 blocks
+B[:/)] 256 blocks
+C[:/)] 512 blocks
+D[:/)] 1024 blocks
+Correct Answer: A
