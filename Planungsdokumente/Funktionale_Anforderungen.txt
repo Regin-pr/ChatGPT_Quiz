@@ -10,7 +10,5 @@ in Ranking einordnen] (3 Stunden)
 - Jeweils eine korrekte Antwort pro Frage kennzeichnen und Nutzereingaben entsprechend bewerten (5 Stunden)
 
 - Punktestände verwalten [verändern und ausgeben] (3 Stunden)
-
-[ - Fragen in der DB speichern, um Dopplungen zu vermeiden (Implementierung how?) ]
  
-- Schwierigkeitsgrade (Implementierung 3 cases: easy/intermediate/difficult)
+- Schwierigkeitsgrade (Implementierung Enum: einfach/mittelschwer/schwer)

@@ -1,0 +1,84 @@
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.exe.config
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.exe
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.pdb
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Http.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Options.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\OpenAI_API.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Buffers.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Memory.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Numerics.Vectors.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Http.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Options.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\OpenAI_API.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Buffers.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Memory.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Numerics.Vectors.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.AssemblyReference.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.CopyComplete
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.exe
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.pdb
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.exe.config
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.exe
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\GPTQuiz_ConsoleApp.pdb
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Http.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\OpenAI_API.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Buffers.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Memory.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Http.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\OpenAI_API.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Buffers.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Memory.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.AssemblyReference.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.csproj.CopyComplete
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.exe
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_ConsoleApp\GPTQuiz_ConsoleApp\obj\Debug\GPTQuiz_ConsoleApp.pdb

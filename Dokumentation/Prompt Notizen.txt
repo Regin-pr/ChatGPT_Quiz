@@ -1,0 +1,16 @@
+--Übliche Antwort-Formatierung der KI
+
+Frage: Welche griechische Göttin ist die Göttin der Weisheit, des Krieges und der Strategie?
+
+A) Hera
+B) Aphrodite
+C) Athena
+D) Artemis
+
+Richtig: C
+_______________________________________________________________________________________________________________
+
+- Formatierung mit genauerem Beispiel oder mithilfe von einer zweiten, reinen Formatierungs-Anfrage trotzdem nicht regelmäßig
+   -> Der Prompt, der aktuell in der prompt.txt-Datei steht ist derjenige, mit dem höchsten Erfolgswert von allen getesteten Varianten.
+- Die Prompteingabe in der Browserversion von ChatGPT ergibt üblicherweise ein anderes Ergebnis als dieselbe Eingabe bei Nutzung der API im Programm
+- Die im Prompt angegebene Maximale Zeichenlänge wird manchmal nicht eingehalten, was zu einer abgeschnittenen Ausgabe führen kann (Kein Problem der Konsolenausgabe, sondern des ChatResults? Habe keinen Weg gefunden das zu fixen)
