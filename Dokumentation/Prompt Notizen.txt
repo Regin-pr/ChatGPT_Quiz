@@ -14,3 +14,4 @@ ________________________________________________________________________________
    -> Der Prompt, der aktuell in der prompt.txt-Datei steht ist derjenige, mit dem höchsten Erfolgswert von allen getesteten Varianten.
 - Die Prompteingabe in der Browserversion von ChatGPT ergibt üblicherweise ein anderes Ergebnis als dieselbe Eingabe bei Nutzung der API im Programm
 - Die im Prompt angegebene Maximale Zeichenlänge wird manchmal nicht eingehalten, was zu einer abgeschnittenen Ausgabe führen kann (Kein Problem der Konsolenausgabe, sondern des ChatResults? Habe keinen Weg gefunden das zu fixen)
+- Manchmal ist das Format der Ausgabe von Fragen + Antworten anders, aber trotzdem noch bespielbar

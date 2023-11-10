@@ -11,4 +11,4 @@ in Ranking einordnen] (3 Stunden)
 
 - Punktestände verwalten [verändern und ausgeben] (3 Stunden)
  
-- Schwierigkeitsgrade (Implementierung Enum: einfach/mittelschwer/schwer)
+- Schwierigkeitsgrade (Implementierung Enum: einfach/mittelschwer/schwer) (1 Stunde)
