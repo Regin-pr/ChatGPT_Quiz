@@ -1,3 +1,5 @@
+-- ChatGPT-Quiz --
+
 Dies ist ein Git-Repository des ChatGPT-Quiz Projekts.
 
 Der Nutzer eines GUI-Programms soll ein Thema oder einen längeren Text per ChatGPT-Anfrage angeben und die KI soll eine entsprechende Frage und (vier) Antwortmöglichkeiten zurückgeben.

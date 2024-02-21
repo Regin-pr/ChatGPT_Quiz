@@ -52,20 +52,20 @@ CREATE TABLE Antwort(
 )
 
 
-INSERT INTO Teilnehmer(Name) VALUES
-('Regin'), ('Schmegin'), ('Isabella');
+INSERT INTO Teilnehmer(Name, PunkteGesamt) VALUES
+('Regin',0), ('Schmegin',0), ('Isabella',0), ('Walter',800), ('Martin',200);
 
 INSERT INTO Thema_Text VALUES
-('Fuﬂball'),
+('Fussball'),
 ('Griechische Mythologie'),
 ('Tiefseefische sind Fische, die an das Leben in Meerestiefen unter ca. 500 Meter angepasst sind.
 Die Tiefsee ist gekennzeichnet durch eine Wassertemperatur von knapp 4 ∞C, Abwesenheit von Pflanzenwuchs und nahezu vollst‰ndige Dunkelheit. 
 Im Laufe der Evolution haben die Tiefseefische Anpassungen an diese extreme Umwelt entwickelt. 
 Bemerkenswert ist dabei, dass die besonderen Merkmale der Tiefseefische h‰ufig unabh‰ngig voneinander in nicht n‰her verwandten Gattungen in sehr ‰hnlicher Weise entstanden (Konvergenz).
 Die grˆﬂte Tiefe, in der jemals ein Fisch beobachtet wurde, betr‰gt 8336 m (Stand April 2023). 
-In dieser Tiefe wurde im September 2022 im Boningraben (auch Izu-Ogasawara-Graben) s¸dlich von Japan ein einzelner Fisch aus der Familie der Scheibenb‰uche (Liparidae) beobachtet. 
+In dieser Tiefe wurde im September 2022 im Boningraben (auch Izu-Ogasawara-Graben) sÅElich von Japan ein einzelner Fisch aus der Familie der Scheibenb‰uche (Liparidae) beobachtet. 
 Dies ist 148 Meter tiefer als die bisherige letzte Sichtung eines Exemplars dieser Gattung im Marianengraben im August 2017. 
-Damit ¸berschreitet das beobachtete Exemplar die bisher f¸r Fische angenommene maximal erreichbare ‹berlebenstiefe von 8200 m um 136 Meter');
+Damit ÅEerschreitet das beobachtete Exemplar die bisher fÅE Fische angenommene maximal erreichbare ‹berlebenstiefe von 8200 m um 136 Meter');
 
 INSERT INTO Frage VALUES
 (1, 'Welche Farbe haben die Karten, die Schiedsrichter im Fuﬂball zeigen, um einen Spieler zu verwarnen?', 1, 100),
@@ -75,7 +75,7 @@ INSERT INTO Frage VALUES
 INSERT INTO Antwort VALUES
 (1, 'A', 'Blau', 0),
 (1, 'B', 'Gelb', 1),
-(1, 'C', 'Gr¸n', 0),
+(1, 'C', 'GrÅE', 0),
 (1, 'D', 'Rot', 0),
 
 (2, 'A', '7200 Meter im Marianengraben', 0),
