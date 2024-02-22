@@ -1,0 +1,235 @@
+﻿<Window x:Class="GPTQuiz_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GPTQuiz_WPF"
+        mc:Ignorable="d"
+        Title="ChatGPT-Quiz" 
+        Height="720" Width="1280" 
+        ResizeMode="NoResize"
+        >
+
+    <Window.Background>
+        <ImageBrush ImageSource="/bgr1.png" Stretch="Fill"/>
+    </Window.Background>
+    <Canvas>
+
+        <StackPanel x:Name="Startseite" Visibility="Hidden"
+                    Height="720" Width="1280"
+                    Grid.ColumnSpan="3" Grid.RowSpan="3" 
+                    Panel.ZIndex="5">
+            <Image Margin="0,30,0,0" Source="/gptquizlogo.png" Height="120" Width="360" HorizontalAlignment="Center"/>
+            <TextBlock Text="Wähle die teilnehmenden Spieler" Margin="0,20,0,0" Foreground="White" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="-- (bis zu 4) --" FontSize="26" Foreground="White" FontStyle="Italic" HorizontalAlignment="Center"/>
+
+
+            <WrapPanel Margin="0,20,0,20" HorizontalAlignment="Center" Background="Azure"
+                       Height="200" Width="1000">
+                
+                <StackPanel Margin="200,50,0,50">
+                    <TextBlock Text="Neuen Teilnehmer anlegen"></TextBlock>
+                    <TextBox x:Name="TeilnehmerNeuName" Text="" Margin="0,10" Width="100"></TextBox>
+                    <Button x:Name="TeilnehmerNeu" Content="Neu" Height="30" Width="100" Click="TeilnehmerNeu_Click"></Button>
+                </StackPanel>
+
+                <DataGrid x:Name="DBTeilnehmerListe" 
+                    AutoGenerateColumns="False"
+                    Margin="30,30,0,30"
+                    CanUserAddRows="False"
+                    CanUserResizeRows="False"
+                    Background="#FFFFF9DD"
+                    RowBackground="#FFFFF9DD" BorderBrush="#FFA5D3FF"
+                    >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" MinWidth="100" Binding="{Binding Name, Mode=OneWay}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="PunkteGesamt" Binding="{Binding PunkteGesamt, Mode=OneWay}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <StackPanel Margin="30" RenderTransformOrigin="0.531,1.134">
+                    <Button x:Name="TeilnehmerAdd" Content="Hinzufügen" HorizontalAlignment="Center" Height="40" Width="100" Click="TeilnehmerAdd_Click"></Button>
+                    <TextBlock Text="&lt;=&gt;" HorizontalAlignment="Center" FontSize="30"></TextBlock>
+                    <Button x:Name="TeilnehmerRemove" Content="Entfernen" HorizontalAlignment="Center" Height="40" Width="100" Click="TeilnehmerRemove_Click"></Button>
+                </StackPanel>
+
+                <StackPanel Margin="0,30,0,30">
+                    <TextBlock Text="Teilnehmer" Foreground="White"></TextBlock>
+                    <ListView x:Name="QuizTeilnehmerListe"
+                      MinWidth="75"
+                      MinHeight="20" MaxHeight="90"
+                      Background="#FFE8E8E8"                          
+                      >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                                    <Run Text="{Binding Name}"></Run>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </WrapPanel>
+
+            <Button x:Name="StartseiteWeiter" Content="Weiter" Click="StartseiteWeiter_Click" Width="100" Height="30" Margin="0,10,0,20" Background="LightCoral"></Button>
+            <TextBlock x:Name="StartseiteExceptionThrow" HorizontalAlignment="Center" FontSize="20" Background="#59FFFFFF" Foreground="Red" ></TextBlock>
+        </StackPanel>
+
+        <Grid Height="720" Width="1280" x:Name="PromptErstellungsUndFrageseite" Panel.ZIndex="3" Visibility="Visible">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*">
+                </ColumnDefinition>
+                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel x:Name="Seitenleiste"
+                Grid.Column="0" Panel.ZIndex="4"
+                Background="#FFACCFC1"
+                Visibility="Visible">
+                <TextBlock HorizontalAlignment="Center" Margin="10,10,10,5" FontSize="20" 
+                           Text="Teilnehmer"></TextBlock>
+                <!---Aktuelle Teilnehmer mit deren Punktestände-->
+                <DataGrid Margin="10,0,10,0" x:Name="QuizTeilnehmerSeitenleiste" 
+                    AutoGenerateColumns="False"
+                    CanUserAddRows="False"
+                    CanUserResizeRows="False"
+                    RowBackground="White"
+                    CanUserResizeColumns="False"
+                    >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" MinWidth="291" Binding="{Binding Name, Mode=OneWay}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Punkte" MinWidth="40"  Binding="{Binding PunkteGesamt, Mode=OneWay}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <TextBlock x:Name="RundenanzeigeSeitenleiste" Text="Aktuelle Runde: " FontSize="18" HorizontalAlignment="Center"></TextBlock>
+                <Rectangle HorizontalAlignment="Stretch" Fill="#FF172934" Height="4" Margin="0,10,0,10"/>
+                <TextBlock Text="Thema-/Textschnellauswahl" HorizontalAlignment="Center" FontSize="18"></TextBlock>
+                <TabControl x:Name="ThemaTextTab" Background="#74aa9c" Grid.Column="0" Grid.RowSpan="3">
+                    <TabItem x:Name="ThemaTabItem" Header="Thema">
+                        <ListView x:Name="ThemenListView">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock>
+                                        <Run Text="{Binding Bezeichnung}"></Run>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </TabItem>
+                    <TabItem x:Name="TextTabItem" Header="Text">
+                        <ListView x:Name="TexteListView">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock>
+                                        <Run Text="{Binding Bezeichnung}"></Run>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </TabItem>
+                </TabControl>
+                <Button x:Name="ThemaTextAuswahl" Content="Übernehmen" Click="ThemaTextAuswahl_Click"></Button>
+            </StackPanel>
+
+            <StackPanel x:Name="PromptErstellungsseite" Grid.Column="1" Visibility="Hidden">
+                <TextBlock x:Name="PromptErstellungTeilnehmerNameAnzeige" FontSize="26" HorizontalAlignment="Center">
+                </TextBlock>
+
+                <WrapPanel Margin="10,0,10,5">
+                    <TextBlock Text="Quelle:" FontSize="20"></TextBlock>
+                    <ToggleButton x:Name="ToggleThema"  Content="Thema" Width="50" Margin="5,0,5,0" Checked="ToggleThema_Checked"></ToggleButton>
+                    <ToggleButton x:Name="ToggleText" Content="Text" Width="50" Checked="ToggleText_Checked"></ToggleButton>
+                </WrapPanel>
+
+                <WrapPanel Margin="10,0,10,5">
+                    <TextBlock Text="Schwierigkeitsgrad:" FontSize="20"></TextBlock>
+                    <ToggleButton x:Name="ToggleEinfach" Content="Einfach" Width="50" Margin="5,0,5,0" Checked="ToggleEinfach_Checked"></ToggleButton>
+                    <ToggleButton x:Name="ToggleMittel" Content="Mittel" Width="50" Checked="ToggleMittel_Checked"></ToggleButton>
+                    <ToggleButton x:Name="ToggleSchwer" Content="Schwer" Width="50" Margin="5,0,0,0" Checked="ToggleSchwer_Checked"></ToggleButton>
+                </WrapPanel>
+
+                <TabControl Margin="10,0,30,0">
+                    <TabItem Header="Thema">
+                        <StackPanel>
+                            <TextBlock Text="Wie lautet dein erwünschtes Thema?" FontSize="16"></TextBlock>
+                            <TextBox x:Name="ThemaBox" Text="" FontStyle="Italic" FontSize="22" Foreground="CadetBlue" BorderBrush="Aqua"></TextBox>
+                        </StackPanel>
+                    </TabItem>
+
+                    <TabItem Header="Text">
+                        <StackPanel>
+                            <TextBlock Text="Füge hier deinen erwünschten Text ein:" FontSize="16"></TextBlock>
+                            <TextBox x:Name="TexteBox" Text="" FontStyle="Italic" FontSize="22" Foreground="CadetBlue" BorderBrush="Aqua" Height="400" 
+                                     AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+                <Button Margin="10" x:Name="FrageGenerieren" HorizontalAlignment="Center" Height="40" Width="100" Content="Generieren" Background="LightCoral" Click="FrageGenerieren_Click"></Button>
+                <TextBlock x:Name="GenerierTextBestaetigung" Text="--Frage wird generiert--" HorizontalAlignment="Center" Visibility="Hidden"></TextBlock>
+            </StackPanel>
+
+            <Grid Grid.Column="1" x:Name="Frageseite" 
+                  Panel.ZIndex="2" 
+                  Visibility="Visible"
+                  >
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="2" 
+                        HorizontalAlignment="Center" VerticalAlignment="Center"
+                        >
+                    <TextBlock x:Name="Fragetext" Text="Frage" TextWrapping="Wrap" Margin="20,10,20,10" FontSize="26" HorizontalAlignment="Center" FontWeight="Bold"></TextBlock>
+                    <Label Name="SpielerFrage" Content="Wähle deine Antwort" HorizontalAlignment="Center" FontSize="18"></Label>
+                </StackPanel>
+
+                <Button x:Name="AnswerButtonA" Content="Antwort A" 
+            Grid.Column="0" Grid.Row="1" 
+            Panel.ZIndex="2" FontSize="22"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center"
+            Margin="60,40" Click="AnswerButtonA_Click">
+                </Button>
+                <Button x:Name="AnswerButtonB" Content="Antwort B" 
+            Grid.Column="1" Grid.Row="1" 
+            Panel.ZIndex="2" FontSize="22"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center"
+            Margin="60,40" Click="AnswerButtonB_Click">
+                </Button>
+                <Button x:Name="AnswerButtonC" Content="Antwort C" 
+            Grid.Column="0" Grid.Row="2" 
+            Panel.ZIndex="2" FontSize="22"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center"
+            Margin="60,40" Click="AnswerButtonC_Click">
+                </Button>
+                <Button x:Name="AnswerButtonD" Content="Antwort D" 
+            Grid.Column="1" Grid.Row="2" 
+            Panel.ZIndex="2" FontSize="22"
+            HorizontalContentAlignment="Center" 
+            VerticalContentAlignment="Center"
+            Margin="60,40" Click="AnswerButtonD_Click">
+                </Button>
+
+                <WrapPanel x:Name="AntwortUndNeueRundePanel" Grid.ColumnSpan="2" Grid.Row="3" Background="#FFAFEBC4" Margin="40,0,40,100" Visibility="Collapsed">
+                    <TextBlock x:Name="AntwortUndNeueRundeText" Text="Richtig:" Margin="20,12,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"></TextBlock>
+                    <Button x:Name="NeueRundeButton" Height="40" Width="140" Margin="20,20,0,0" Content="Nächste Runde" Panel.ZIndex="7" Click="NeueRundeButton_Click"></Button>
+                    <Button x:Name="StartseiteBackButton" Height="40" Width="140" Margin="5,20,0,0" Content="Zurück zur Startseite" Panel.ZIndex="7" Click="StartseiteBackButton_Click"></Button>
+                </WrapPanel>
+            </Grid>
+            
+        </Grid>
+        
+    </Canvas>
+</Window>

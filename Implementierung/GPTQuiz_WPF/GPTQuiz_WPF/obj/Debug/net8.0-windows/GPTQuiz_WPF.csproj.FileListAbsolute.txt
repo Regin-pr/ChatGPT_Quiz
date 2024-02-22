@@ -1,0 +1,172 @@
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.exe
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.deps.json
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.runtimeconfig.json
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.lref
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.g.resources
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfoInputs.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfo.cs
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CoreCompileInputs.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\refint\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.genruntimeconfig.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\ref\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.AssemblyReference.cache
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CopyComplete
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Http.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\VS Projects\GPTQuiz_ConsoleApp\GPTQuiz_WPF\bin\Debug\net8.0-windows\OpenAI_API.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.exe
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.deps.json
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.runtimeconfig.json
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Http.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\OpenAI_API.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.AssemblyReference.cache
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.cache
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.lref
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.g.resources
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfoInputs.cache
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfo.cs
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CoreCompileInputs.cache
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CopyComplete
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\refint\GPTQuiz_WPF.dll
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.genruntimeconfig.cache
+C:\VS Projects\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\ref\GPTQuiz_WPF.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.exe
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.deps.json
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.runtimeconfig.json
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Http.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\OpenAI_API.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.AssemblyReference.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF_MarkupCompile.lref
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.g.resources
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfoInputs.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.AssemblyInfo.cs
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CoreCompileInputs.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.sourcelink.json
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.csproj.CopyComplete
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\refint\GPTQuiz_WPF.dll
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.pdb
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\GPTQuiz_WPF.genruntimeconfig.cache
+C:\Git_Repos\gpt_quiz\Implementierung\GPTQuiz_WPF\GPTQuiz_WPF\obj\Debug\net8.0-windows\ref\GPTQuiz_WPF.dll
