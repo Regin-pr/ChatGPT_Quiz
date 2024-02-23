@@ -132,7 +132,7 @@
                 <Button x:Name="ThemaTextAuswahl" Content="Übernehmen" Click="ThemaTextAuswahl_Click"></Button>
             </StackPanel>
 
-            <StackPanel x:Name="PromptErstellungsseite" Grid.Column="1" Visibility="Hidden">
+            <StackPanel x:Name="PromptErstellungsseite" Grid.Column="1" Visibility="Visible">
                 <TextBlock x:Name="PromptErstellungTeilnehmerNameAnzeige" FontSize="26" HorizontalAlignment="Center">
                 </TextBlock>
 
@@ -149,7 +149,7 @@
                     <ToggleButton x:Name="ToggleSchwer" Content="Schwer" Width="50" Margin="5,0,0,0" Checked="ToggleSchwer_Checked"></ToggleButton>
                 </WrapPanel>
 
-                <TabControl Margin="10,0,30,0">
+                <TabControl x:Name="ThemaTextBezeichnungsTab" Margin="10,0,30,0">
                     <TabItem Header="Thema">
                         <StackPanel>
                             <TextBlock Text="Wie lautet dein erwünschtes Thema?" FontSize="16"></TextBlock>
