@@ -49,7 +49,7 @@ namespace GPTQuiz_WPF
 
         public MainWindow()
         {
-            InitializeComponent();      
+            InitializeComponent();
             Startseite.Visibility = Visibility.Visible;
 
             Seitenleiste.Visibility = Visibility.Collapsed;
@@ -57,7 +57,7 @@ namespace GPTQuiz_WPF
             PromptErstellungsseite.Visibility = Visibility.Collapsed;
             Frageseite.Visibility = Visibility.Collapsed;
 
-            IEnumerable<Teilnehmer> teilnehmers = context.Teilnehmers;    
+            IEnumerable<Teilnehmer> teilnehmers = context.Teilnehmers;
             foreach (Teilnehmer t in teilnehmers)
             {
                 DBTeilnehmer.Add(t);
@@ -65,8 +65,8 @@ namespace GPTQuiz_WPF
 
             IEnumerable<ThemaText> themen = context.ThemaTexte;
             foreach (ThemaText tt in themen)
-            { 
-                if(tt.IstThema)
+            {
+                if (tt.IstThema)
                 { themenListe.Add(tt); }
                 else
                 { textListe.Add(tt); }
@@ -76,7 +76,7 @@ namespace GPTQuiz_WPF
             QuizTeilnehmerListe.ItemsSource = quizTeilnehmer;
 
             ThemenListView.ItemsSource = themenListe;
-            TexteListView.ItemsSource = textListe;
+            TexteListView.ItemsSource = textListe;     
         }
 
         private void TeilnehmerAdd_Click(object sender, RoutedEventArgs e)
@@ -246,12 +246,12 @@ namespace GPTQuiz_WPF
                                 "Antwortmöglichkeiten von A - D, wovon nur eine korrekt ist, zu folgendem Thema mit höchstens 350 Zeichen: " + ThemaBox.Text +
                                 " | Stelle sicher, dass am Ende der Ausgabe die richtige Antwort in folgender Form steht: \"Richtig:B\"";
                 }
-                else if (ToggleThema.IsChecked == true)
+                else if (ToggleText.IsChecked == true)
                 {
                     //Request mit Text-String
                     msg.TextContent = "Formuliere eine " + schwierigkeitsgrad.ToString() + " Allgemeinwissens-Quizfrage mit vier(4) " +
-                                "Antwortmöglichkeiten von A - D, wovon nur eine korrekt ist, zu folgendem Text mit hochstens 350 Zeichen: " + TexteBox.Text +
-                                " | Stelle sicher, dass am Ende der Ausgabe die richtige Antwort in folgender Form steht: \"Richtig:B\". Die richtige Antwort muss in der Ausgabe enthalten sein! Deine Antwort darf nicht mehr als 350 Zeichen lang sein!";
+                                "Antwortmöglichkeiten von A - D, wovon nur eine korrekt ist, zu folgendem Text mit hochstens 350 Zeichen: '" + TexteBox.Text +
+                                "' | Stelle sicher, dass am Ende der Ausgabe die richtige Antwort in folgender Form steht: \"Richtig:B\". Die richtige Antwort muss in der Ausgabe enthalten sein! Deine Antwort darf nicht mehr als 350 Zeichen lang sein!";
                 }
                 
                 prompts[0] = msg;
@@ -266,26 +266,67 @@ namespace GPTQuiz_WPF
                 //Bei erfolgreicher Generierung das Thema / den Text und die neue Frage mit seinen Antworten der DB zufügen
                 if (anfrageSplit != null)
                 {
+                    //Bei der Überprüfung, ob ein Thema / Text bereits in der DB existiert wird gegebenenfalls
+                    //die ID des vorhandenen Themas gespeichert, um die neu generierte Frage diesem hinzuzufügen
+                    int thematextID = -1;
                     if (ToggleThema.IsChecked == true)
                     {
+                        foreach (ThemaText tt in context.ThemaTexte)
+                        {
+                            //Das Thema existiert bereits
+                            if (tt.Bezeichnung.ToLower() == ThemaBox.Text.ToLower())
+                            {
+                                thematextID = tt.ThemaId;
+                            }
+                        }
 
-                        context.ThemaTexte.Add(new ThemaText(ThemaBox.Text, true));
+                        if (thematextID == -1)
+                        {
+                            //Das Thema existiert noch nicht, also wird es neu angelegt
+                            //und die ID des neusten Objekts in der Variablen gespeichert
+                            context.ThemaTexte.Add(new ThemaText(ThemaBox.Text, true));
+                            context.SaveChanges();
 
-                        context.SaveChanges();
+                            thematextID = context.ThemaTexte.Count();
 
-                        ThemenListView.Items.Refresh();
+                            themenListe.Add(new ThemaText(ThemaBox.Text, true));
+
+                            context.SaveChanges();
+
+                            ICollectionView ThemenView = CollectionViewSource.GetDefaultView(themenListe);
+                            ThemenView.Refresh();
+                        }
                     }
                     else if (ToggleText.IsChecked == true)
                     {
-                        context.ThemaTexte.Add(new ThemaText(TexteBox.Text, false));
+                        //Dasselbe auch für Texte
+                        foreach (ThemaText tt in context.ThemaTexte)
+                        {
+                            if (tt.Bezeichnung.ToLower() == TexteBox.Text.ToLower())
+                            {
+                                thematextID = tt.ThemaId;
+                            }
+                        }
 
-                        context.SaveChanges();
+                        if (thematextID == -1)
+                        {
+                            context.ThemaTexte.Add(new ThemaText(TexteBox.Text, false));
+                            context.SaveChanges();
 
-                        TexteListView.Items.Refresh();
+                            thematextID = context.ThemaTexte.Count();
+
+                            textListe.Add(new ThemaText(TexteBox.Text, false));
+
+                            context.SaveChanges();
+
+                            ICollectionView TexteView = CollectionViewSource.GetDefaultView(textListe);
+                            TexteListView.Items.Refresh();
+                        }
                     }
 
                     IEnumerable<ThemaText> themen = context.ThemaTexte;
-                    context.Fragen.Add(new Frage(themen.Last().ThemaId, anfrageSplit[0], (int)schwierigkeitsgrad + 1));
+
+                    context.Fragen.Add(new Frage(thematextID, anfrageSplit[0], (int)schwierigkeitsgrad + 1));
 
                     context.SaveChanges();
 
@@ -463,6 +504,8 @@ namespace GPTQuiz_WPF
             ThemaBox.Text = "";
             TexteBox.Text = "";
 
+            spielerAntwortDran = 0;
+
             StartseiteWeiter_Click(sender, e);
         }
 
@@ -471,6 +514,8 @@ namespace GPTQuiz_WPF
             QuizTeilnehmerListe.Items.Refresh();
             ThemaBox.Text = "";
             TexteBox.Text = "";
+
+            spielerAntwortDran = 0;
 
             Startseite.Visibility = Visibility.Visible;
 
